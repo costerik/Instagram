@@ -15,7 +15,7 @@ class PostsController < ApplicationController
   # GET /posts/new
   def new
     @post = Post.new
-    @users = User.all.map{|user| [user.name ,user.id]}
+    @users = User.all.map { |user| [user.name,user.id] }
   end
 
   # GET /posts/1/edit
