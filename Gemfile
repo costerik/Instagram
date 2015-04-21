@@ -15,7 +15,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'foundation-rails', '5.4.5'
-
+gem 'better_errors'
 gem 'devise'
 
 # Use jquery as the JavaScript library
